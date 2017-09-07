@@ -86,7 +86,7 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libbson \
     libshims_camera \
-    Snap
+    libshims_sensorlistener
 
 # CMActions
 PRODUCT_PACKAGES += \
