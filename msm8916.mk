@@ -184,6 +184,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.msm8916
 
+# Radio
+PRODUCT_PACKAGES += \
+    libqsap_shim
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.ril.sh \
