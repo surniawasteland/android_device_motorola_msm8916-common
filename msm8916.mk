@@ -241,13 +241,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# Android Go settings
-$(call inherit-product, build/target/product/go_defaults.mk)
-
-# But with some tweaks to improve it
-PRODUCT_PROPERTY_OVERRIDES += \
-	dalvik.vm.heapsize=365m
-
 PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
     wpa_supplicant_overlay.conf
